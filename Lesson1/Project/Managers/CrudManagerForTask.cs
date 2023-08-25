@@ -1,5 +1,5 @@
 ﻿using ADO.NET_LESSON_1.Lesson1.Project.Services.Classes;
-using ADO.NET_LESSON_1.Lesson1.Project.Services.Interface;
+using ADO.NET_LESSON_1.Lesson1.Project.Services.Interface.Crud;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +11,7 @@ namespace ADO.NET_LESSON_1.Lesson1.Project.Managers
 {
     internal class CrudManagerForTask : CrudManagerInterface
     {
-         public static  CrudService crudServiceForTask = new CrudService();
+         public static  CrudServiceForTask crudServiceForTask = new();
 
         public void Crud()
         {

@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ADO.NET_LESSON_1.Lesson1.Project.Services.Interface
+namespace ADO.NET_LESSON_1.Lesson1.Project.Services.Interface.Other
 {
     public interface SelectOperationInterface
     {
-        public void Select(int id);
+        public string SelectInTruncate(string a);
+        public void SelectMainInStartUp();
     }
 }

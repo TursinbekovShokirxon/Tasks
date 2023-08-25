@@ -1,5 +1,5 @@
 ﻿using ADO.NET_LESSON_1.Lesson1.Project.Services.Classes;
-using ADO.NET_LESSON_1.Lesson1.Project.Services.Interface;
+using ADO.NET_LESSON_1.Lesson1.Project.Services.Interface.Crud;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace ADO.NET_LESSON_1.Lesson1.Project.Managers
 {
     internal class CrudManagerForCustomer : CrudManagerInterface
     {
-        CrudService crudService = new();
+        CrudServiceForTask crudService = new();
         public void Crud()
         {
             bool isA = true;
@@ -25,7 +25,7 @@ namespace ADO.NET_LESSON_1.Lesson1.Project.Managers
                 byte a = byte.Parse(Console.ReadLine() ?? "");
                 switch (a)
                 {
-                    case 1: { crudService.Create(); } break;
+                    case 1: { crudService.Create();} break;
                     case 2: { crudService.Create(); } break;
                     case 3: { crudService.Update(); } break;
                     case 4: { crudService.Delete(); } break;

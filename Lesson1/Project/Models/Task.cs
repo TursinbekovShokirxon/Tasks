@@ -17,7 +17,6 @@ namespace ADO.NET_LESSON_1.Lesson1.Project.Models
         public Employee Employee { get; set; } = new();
         public override string ToString()
         {
-
             return $"ID - {Id} \nNameOfTask - {NameOfTask} \nPrice - {Price}\nCustomerId - {Customer.Id}\nEmployeeName - {Employee.Id}\nOrderDate - {OrderDate}\nDeadLine - {DeadLine}";
         }
     }
