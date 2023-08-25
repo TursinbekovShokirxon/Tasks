@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "86y1RW/IfQFPdmACuRpejQkqclZZLH2mvqo+1Q8zmt+LiseLWw74VFFP21KYJc2JL1Z7VwCBB4QmqqgeAArDjw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\suoki\\source\\repos\\ADO.NET_LESSON_1\\ADO.NET_LESSON_1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\suoki\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\suoki\\.nuget\\packages\\npgsql\\7.0.4\\npgsql.7.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}
