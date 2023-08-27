@@ -1,4 +1,5 @@
-﻿using Npgsql;
+﻿using ADO.NET_LESSON_1.Lesson1.Project.Models;
+using Npgsql;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -30,11 +31,11 @@ namespace ADO.NET_LESSON_1.Lesson2
             {
                 Tasks.Add(new()
                 {
-                    CustomerName = (string)reader["customername"],
+                    customerid = (int)reader["customer_id"],
                     Id = (int)reader["Id"],
                     DeadLine = (string)reader["deadline"],
                     OrderDate = (string)reader["ordertime"],
-                    EmployeeName = (string)reader["employeename"],
+                    employeeid = (int)reader["employee_id"],
                     NameOfTask = (string)reader["nameoftask"],
                     Price = (float)reader["price"]
                 });

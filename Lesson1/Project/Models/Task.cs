@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ADO.NET_LESSON_1.Lesson1.Project.Models
+﻿namespace ADO.NET_LESSON_1.Lesson1.Project.Models
 {
     public class Task
     {
@@ -13,11 +7,11 @@ namespace ADO.NET_LESSON_1.Lesson1.Project.Models
         public string? OrderDate { get; set; }
         public string? DeadLine { get; set; }
         public double  Price { get; set; }
-        public Customer Customer { get; set; } = new();
-        public Employee Employee { get; set; } = new();
+        public int customerid { get; set; } 
+        public int employeeid { get; set; } 
         public override string ToString()
         {
-            return $"ID - {Id} \nNameOfTask - {NameOfTask} \nPrice - {Price}\nCustomerId - {Customer.Id}\nEmployeeName - {Employee.Id}\nOrderDate - {OrderDate}\nDeadLine - {DeadLine}";
+            return $"ID - {Id} \nNameOfTask - {NameOfTask} \nPrice - {Price}\nCustomerId - {customerid}\nEmployeeName - {employeeid}\nOrderDate - {OrderDate}\nDeadLine - {DeadLine}";
         }
     }
 }

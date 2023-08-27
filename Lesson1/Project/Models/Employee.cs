@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ADO.NET_LESSON_1.Lesson1.Project.Models
+﻿namespace ADO.NET_LESSON_1.Lesson1.Project.Models
 {
     public class Employee:People
     {
